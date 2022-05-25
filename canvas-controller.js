@@ -821,7 +821,7 @@
         }
         //console.log('did whole thing');
         let z3 = document.getElementById('display');
-        z3.textContent = 'Game over! reload to play again';
+        z3.textContent = 'Game over! Click the button to play again';
         //alert('You lost');
 
         //set up buttons for endgame
