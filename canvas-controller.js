@@ -411,7 +411,7 @@
             //avgfps = time between frames
             // so basically fps = 6.5 milisec between frames
             // lps = loops per sec
-            let lps = 1000/avgfps;
+            let lps = 1000/renderellapse;
 
             let deviation = 153/lps; // more loops per sec, lesser 
             console.log('delay in between frames is'+avgfps);
